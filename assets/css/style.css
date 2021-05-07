@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-size: 16px;
+}
+a,a:hover{
+    text-decoration: none;
+}
+img{
+    width: 80%;
+}
+/* Navigation css */
+
+ul.navbar-nav .nav-link {
+    color: #333;
+    font-weight: 500;
+    padding: 20px;
+    display: block;
+    margin: 0 10px;
+}
+
+/* Banner css */
+section.banner-area h1 {
+    font-size: 55px;
+    color: #363958;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 75px;
+}
+
+section.banner-area h1 span {
+    color: #FF8367;
+}
+
+section.banner-area p {
+    padding-top: 15px;
+    padding-right: 150px;
+}
+
+.box-btn {
+    background: #FF8367;
+    padding: 15px 40px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 20px;
+}
+.box-btn:hover{
+    color: #fff;
+}
+
+.content {
+    padding-top: 50px;
+}
+
+/* About css */
+
+section.about-area h2 {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #363958;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+/* Project css */
+
+.project-area {
+    background: #F8F9FC;
+    margin: 40px 0;
+    padding: 100px 0;
+}
+
+.project-area h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #363958;
+    padding-bottom: 25px;
+}
+
+.project-area h2 span {
+    color: #FF8367;
+}
+
+.project-item {
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #ddd;
+}
+
+.project-item img {
+    width: 100%;
+}
+
+.project-item h3 {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 0px;
+}
+
+/* Chat area */
+.chat-area{
+    background-image: url(../images/chat_bg.png);
+    height: 200px;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section.chat {
+    margin: 30px;
+}
+
+.chat-area h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contact css */
+section.contact {
+    margin: 50px 0;
+}
+
+.contact-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-area h4 {
+    text-transform: uppercase;
+    color: #777;
+    font-weight: 600;
+}
+
+.contact-area h2 {
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+.contact-social ul {
+    list-style: none;
+}
+
+.contact-social ul li {
+    float: left;
+    padding: 0 15px;
+}
+
+.contact-social ul li a img {
+    width: 45px;
+}
+
+
+/* Footer css */
+
+footer {
+    background: #FF8367;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin: 0;
+}
+
+footer p {
+    padding-top: 15px;
+}
